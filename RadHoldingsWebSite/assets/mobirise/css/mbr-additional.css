@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'Ravi-regular';
+  src: url('../../../fonts/Ravi/Ravi_FA-EN_Regular.ttf');
+}
+@font-face {
+  font-family: 'Ravi-bold';
+  src: url('../../../fonts/Ravi/Ravi_FA-EN_Bold.ttf');
+}
+
 body {
-  font-family: Jost;
+  font-family: Ravi-regular;
 }
 .display-1 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Ravi-regular', Regular;
   font-size: 4.6rem;
   line-height: 1.1;
 }
@@ -10,7 +19,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Ravi-bold', Bold;
   font-size: 3rem;
   line-height: 1.1;
 }
@@ -18,7 +27,7 @@ body {
   font-size: 3.75rem;
 }
 .display-4 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Ravi-regular', Regular;
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -26,7 +35,7 @@ body {
   font-size: 1.375rem;
 }
 .display-5 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Ravi-regular', Regular;
   font-size: 2.2rem;
   line-height: 1.5;
 }
@@ -34,7 +43,7 @@ body {
   font-size: 2.75rem;
 }
 .display-7 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Ravi-regular', Regular;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -586,7 +595,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Ravi', Regular;
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -600,7 +609,7 @@ a:hover {
   border-color: #e08fb1 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Ravi', Regular;
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -1533,3 +1542,4 @@ a {
 .cid-s48P1Icc8J .media-container-row .row-copirayt p {
   width: 100%;
 }
+
